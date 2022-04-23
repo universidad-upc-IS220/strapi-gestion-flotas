@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unidades",
+  "info": {
+    "singularName": "unidad",
+    "pluralName": "unidades",
+    "displayName": "Unidad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "marca": {
+      "type": "string"
+    },
+    "modelo": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "kilometraje": {
+      "type": "biginteger"
+    },
+    "estado": {
+      "type": "boolean"
+    }
+  }
+}
